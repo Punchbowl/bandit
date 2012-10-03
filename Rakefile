@@ -39,3 +39,10 @@ Rake::TestTask.new("test_redis") { |t|
   t.test_files = FileList['test/redis_*.rb']
   t.verbose = true
 }
+
+desc "Run all unit tests with mongodb storage"
+Rake::TestTask.new("test_mongodb") { |t|
+  t.libs << "lib"
+  t.test_files = FileList['test/mongodb_*.rb']
+  t.verbose = true
+}

@@ -5,3 +5,8 @@ redis_storage_config:
 memcache_storage_config:
   host: localhost
   
+mongodb_storage_config:
+  host: localhost
+  port: 27017
+  db: bandit_test
+  collection: bandit
