@@ -1,3 +1,4 @@
+require 'debugger'
 require File.join File.dirname(__FILE__), 'helper'
 require File.join File.dirname(__FILE__), 'storage_test_base'
 
