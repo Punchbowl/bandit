@@ -8,6 +8,7 @@ require "bandit/memoizable"
 require "bandit/players/base"
 require "bandit/players/round_robin"
 require "bandit/players/epsilon_greedy"
+require "bandit/players/fixed"
 
 require "bandit/storage/base"
 require "bandit/storage/memory"
