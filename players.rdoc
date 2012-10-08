@@ -12,7 +12,7 @@ The epsilon greedy player selects the best alternative with a probability of 1 -
       ...
 
 == Fixed
-This player always selects the first alternative.  It does not record participants or conversions.  There are no config options.
+This player always selects the first alternative.  It will not optimize.  There are no config options.
 
     production:
       ...
