@@ -11,6 +11,13 @@ The epsilon greedy player selects the best alternative with a probability of 1 -
         epsilon: 0.1
       ...
 
+== Fixed
+This player always selects the first alternative.  It will not optimize.  There are no config options.
+
+    production:
+      ...
+      player: fixed
+      ...
 
 == Round Robin
 This is included for testing purposes only.  It will not optimize.  There are no config options.
