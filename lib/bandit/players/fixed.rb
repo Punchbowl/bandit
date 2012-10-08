@@ -9,11 +9,6 @@ module Bandit
     def set(name, value)
       true
     end
-
-    # get state variable by name
-    def get(name)
-      0
-    end
     
   end
 end
